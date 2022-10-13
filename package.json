@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -27,5 +27,8 @@
     "babel-loader": "^8.2.5",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@volivanmail/ajs_dz_3": "^1.0.0"
   }
 }
